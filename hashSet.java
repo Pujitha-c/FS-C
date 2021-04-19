@@ -1,9 +1,9 @@
 you are given n pairs of strings. Two pairs (a,b) and (c,d) are identical if a=c and b=d . That also implies (a,b) is not same as (b,a). After taking each pair as input, you need to print number of unique pairs you currently have.Show Hint
 
 import java.io.*;
-import java.util.*;
-import java.text.*;
-import java.math.*;
+import java.util.*;                                                                            
+import java.text.*;                                                                                  
+import java.math.*;                                               
 import java.util.regex.*;
 
 public class Test {
@@ -19,7 +19,7 @@ public class Test {
         left[i]=sc.next();
         right[i]=sc.nextLine();
     }
-    //Scan right pair
+    //Scan right pair                                           
         
        //create hash set
        HashSet<String>hs=new HashSet();
@@ -32,3 +32,18 @@ public class Test {
         
     }
 }
+
+/* output
+  5
+  john mary
+  john jacobs
+  john mary
+  julia roberts
+  julia roberts
+  1 //size
+  2
+  2
+  3
+  3
+  
+  
